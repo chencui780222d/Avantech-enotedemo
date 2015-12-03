@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--test-->
         <scene sceneID="1A2-rD-WUw">
             <objects>
                 <tableViewController id="y8M-ym-qIf" sceneMemberID="viewController">
@@ -28,7 +28,7 @@
                             <outlet property="delegate" destination="y8M-ym-qIf" id="Lp0-lM-fJg"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="c91-h5-GfT"/>
+                    <navigationItem key="navigationItem" title="test" id="c91-h5-GfT"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T3D-h5-6VS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -49,24 +49,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JdC-b1-izM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-571" y="332"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Avantech_enotedemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-37" y="989"/>
         </scene>
     </scenes>
 </document>
