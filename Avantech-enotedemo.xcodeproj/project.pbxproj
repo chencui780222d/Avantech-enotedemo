@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5F80A601C10E758005DC77F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F80A5F1C10E758005DC77F /* AppDelegate.swift */; };
+		A5F80A621C10E758005DC77F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F80A611C10E758005DC77F /* ViewController.swift */; };
+		A5F80A651C10E758005DC77F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F80A631C10E758005DC77F /* Main.storyboard */; };
+		A5F80A681C10E758005DC77F /* Avantech_enotedemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5F80A661C10E758005DC77F /* Avantech_enotedemo.xcdatamodeld */; };
+		A5F80A6A1C10E758005DC77F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F80A691C10E758005DC77F /* Assets.xcassets */; };
+		A5F80A6D1C10E758005DC77F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F80A6B1C10E758005DC77F /* LaunchScreen.storyboard */; };
+		A5F80A781C10E758005DC77F /* Avantech_enotedemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F80A771C10E758005DC77F /* Avantech_enotedemoTests.swift */; };
+		A5F80A831C10E758005DC77F /* Avantech_enotedemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F80A821C10E758005DC77F /* Avantech_enotedemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5F80A741C10E758005DC77F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F80A541C10E758005DC77F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5F80A5B1C10E758005DC77F;
+			remoteInfo = "Avantech-enotedemo";
+		};
+		A5F80A7F1C10E758005DC77F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F80A541C10E758005DC77F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5F80A5B1C10E758005DC77F;
+			remoteInfo = "Avantech-enotedemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5F80A5C1C10E758005DC77F /* Avantech-enotedemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avantech-enotedemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F80A5F1C10E758005DC77F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5F80A611C10E758005DC77F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5F80A641C10E758005DC77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5F80A671C10E758005DC77F /* Avantech_enotedemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Avantech_enotedemo.xcdatamodel; sourceTree = "<group>"; };
+		A5F80A691C10E758005DC77F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5F80A6C1C10E758005DC77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5F80A6E1C10E758005DC77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F80A731C10E758005DC77F /* Avantech-enotedemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Avantech-enotedemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F80A771C10E758005DC77F /* Avantech_enotedemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avantech_enotedemoTests.swift; sourceTree = "<group>"; };
+		A5F80A791C10E758005DC77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F80A7E1C10E758005DC77F /* Avantech-enotedemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Avantech-enotedemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F80A821C10E758005DC77F /* Avantech_enotedemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avantech_enotedemoUITests.swift; sourceTree = "<group>"; };
+		A5F80A841C10E758005DC77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5F80A591C10E758005DC77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F80A701C10E758005DC77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F80A7B1C10E758005DC77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5F80A531C10E758005DC77F = {
+			isa = PBXGroup;
+			children = (
+				A5F80A5E1C10E758005DC77F /* Avantech-enotedemo */,
+				A5F80A761C10E758005DC77F /* Avantech-enotedemoTests */,
+				A5F80A811C10E758005DC77F /* Avantech-enotedemoUITests */,
+				A5F80A5D1C10E758005DC77F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5F80A5D1C10E758005DC77F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5F80A5C1C10E758005DC77F /* Avantech-enotedemo.app */,
+				A5F80A731C10E758005DC77F /* Avantech-enotedemoTests.xctest */,
+				A5F80A7E1C10E758005DC77F /* Avantech-enotedemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5F80A5E1C10E758005DC77F /* Avantech-enotedemo */ = {
+			isa = PBXGroup;
+			children = (
+				A5F80A5F1C10E758005DC77F /* AppDelegate.swift */,
+				A5F80A611C10E758005DC77F /* ViewController.swift */,
+				A5F80A631C10E758005DC77F /* Main.storyboard */,
+				A5F80A691C10E758005DC77F /* Assets.xcassets */,
+				A5F80A6B1C10E758005DC77F /* LaunchScreen.storyboard */,
+				A5F80A6E1C10E758005DC77F /* Info.plist */,
+				A5F80A661C10E758005DC77F /* Avantech_enotedemo.xcdatamodeld */,
+			);
+			path = "Avantech-enotedemo";
+			sourceTree = "<group>";
+		};
+		A5F80A761C10E758005DC77F /* Avantech-enotedemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5F80A771C10E758005DC77F /* Avantech_enotedemoTests.swift */,
+				A5F80A791C10E758005DC77F /* Info.plist */,
+			);
+			path = "Avantech-enotedemoTests";
+			sourceTree = "<group>";
+		};
+		A5F80A811C10E758005DC77F /* Avantech-enotedemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5F80A821C10E758005DC77F /* Avantech_enotedemoUITests.swift */,
+				A5F80A841C10E758005DC77F /* Info.plist */,
+			);
+			path = "Avantech-enotedemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5F80A5B1C10E758005DC77F /* Avantech-enotedemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F80A871C10E758005DC77F /* Build configuration list for PBXNativeTarget "Avantech-enotedemo" */;
+			buildPhases = (
+				A5F80A581C10E758005DC77F /* Sources */,
+				A5F80A591C10E758005DC77F /* Frameworks */,
+				A5F80A5A1C10E758005DC77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Avantech-enotedemo";
+			productName = "Avantech-enotedemo";
+			productReference = A5F80A5C1C10E758005DC77F /* Avantech-enotedemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5F80A721C10E758005DC77F /* Avantech-enotedemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F80A8A1C10E758005DC77F /* Build configuration list for PBXNativeTarget "Avantech-enotedemoTests" */;
+			buildPhases = (
+				A5F80A6F1C10E758005DC77F /* Sources */,
+				A5F80A701C10E758005DC77F /* Frameworks */,
+				A5F80A711C10E758005DC77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5F80A751C10E758005DC77F /* PBXTargetDependency */,
+			);
+			name = "Avantech-enotedemoTests";
+			productName = "Avantech-enotedemoTests";
+			productReference = A5F80A731C10E758005DC77F /* Avantech-enotedemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5F80A7D1C10E758005DC77F /* Avantech-enotedemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F80A8D1C10E758005DC77F /* Build configuration list for PBXNativeTarget "Avantech-enotedemoUITests" */;
+			buildPhases = (
+				A5F80A7A1C10E758005DC77F /* Sources */,
+				A5F80A7B1C10E758005DC77F /* Frameworks */,
+				A5F80A7C1C10E758005DC77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5F80A801C10E758005DC77F /* PBXTargetDependency */,
+			);
+			name = "Avantech-enotedemoUITests";
+			productName = "Avantech-enotedemoUITests";
+			productReference = A5F80A7E1C10E758005DC77F /* Avantech-enotedemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5F80A541C10E758005DC77F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Avantech;
+				TargetAttributes = {
+					A5F80A5B1C10E758005DC77F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A5F80A721C10E758005DC77F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A5F80A5B1C10E758005DC77F;
+					};
+					A5F80A7D1C10E758005DC77F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A5F80A5B1C10E758005DC77F;
+					};
+				};
+			};
+			buildConfigurationList = A5F80A571C10E758005DC77F /* Build configuration list for PBXProject "Avantech-enotedemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5F80A531C10E758005DC77F;
+			productRefGroup = A5F80A5D1C10E758005DC77F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5F80A5B1C10E758005DC77F /* Avantech-enotedemo */,
+				A5F80A721C10E758005DC77F /* Avantech-enotedemoTests */,
+				A5F80A7D1C10E758005DC77F /* Avantech-enotedemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5F80A5A1C10E758005DC77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F80A6D1C10E758005DC77F /* LaunchScreen.storyboard in Resources */,
+				A5F80A6A1C10E758005DC77F /* Assets.xcassets in Resources */,
+				A5F80A651C10E758005DC77F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F80A711C10E758005DC77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F80A7C1C10E758005DC77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5F80A581C10E758005DC77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F80A621C10E758005DC77F /* ViewController.swift in Sources */,
+				A5F80A601C10E758005DC77F /* AppDelegate.swift in Sources */,
+				A5F80A681C10E758005DC77F /* Avantech_enotedemo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F80A6F1C10E758005DC77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F80A781C10E758005DC77F /* Avantech_enotedemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F80A7A1C10E758005DC77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F80A831C10E758005DC77F /* Avantech_enotedemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5F80A751C10E758005DC77F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5F80A5B1C10E758005DC77F /* Avantech-enotedemo */;
+			targetProxy = A5F80A741C10E758005DC77F /* PBXContainerItemProxy */;
+		};
+		A5F80A801C10E758005DC77F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5F80A5B1C10E758005DC77F /* Avantech-enotedemo */;
+			targetProxy = A5F80A7F1C10E758005DC77F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5F80A631C10E758005DC77F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5F80A641C10E758005DC77F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5F80A6B1C10E758005DC77F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5F80A6C1C10E758005DC77F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5F80A851C10E758005DC77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5F80A861C10E758005DC77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5F80A881C10E758005DC77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Avantech-enotedemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Avantech.Avantech-enotedemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5F80A891C10E758005DC77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Avantech-enotedemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Avantech.Avantech-enotedemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A5F80A8B1C10E758005DC77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Avantech-enotedemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Avantech.Avantech-enotedemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Avantech-enotedemo.app/Avantech-enotedemo";
+			};
+			name = Debug;
+		};
+		A5F80A8C1C10E758005DC77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Avantech-enotedemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Avantech.Avantech-enotedemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Avantech-enotedemo.app/Avantech-enotedemo";
+			};
+			name = Release;
+		};
+		A5F80A8E1C10E758005DC77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Avantech-enotedemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Avantech.Avantech-enotedemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Avantech-enotedemo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A5F80A8F1C10E758005DC77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Avantech-enotedemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Avantech.Avantech-enotedemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Avantech-enotedemo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5F80A571C10E758005DC77F /* Build configuration list for PBXProject "Avantech-enotedemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F80A851C10E758005DC77F /* Debug */,
+				A5F80A861C10E758005DC77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F80A871C10E758005DC77F /* Build configuration list for PBXNativeTarget "Avantech-enotedemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F80A881C10E758005DC77F /* Debug */,
+				A5F80A891C10E758005DC77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5F80A8A1C10E758005DC77F /* Build configuration list for PBXNativeTarget "Avantech-enotedemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F80A8B1C10E758005DC77F /* Debug */,
+				A5F80A8C1C10E758005DC77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5F80A8D1C10E758005DC77F /* Build configuration list for PBXNativeTarget "Avantech-enotedemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F80A8E1C10E758005DC77F /* Debug */,
+				A5F80A8F1C10E758005DC77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A5F80A661C10E758005DC77F /* Avantech_enotedemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A5F80A671C10E758005DC77F /* Avantech_enotedemo.xcdatamodel */,
+			);
+			currentVersion = A5F80A671C10E758005DC77F /* Avantech_enotedemo.xcdatamodel */;
+			path = Avantech_enotedemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A5F80A541C10E758005DC77F /* Project object */;
+}
